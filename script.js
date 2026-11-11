@@ -31,4 +31,8 @@ function actualizarMenu() {
 }
 
 window.addEventListener("scroll", actualizarMenu);
+nav a.activo {
+    background-color: #fffbdc;
+    color: #805c59;
+}
 
